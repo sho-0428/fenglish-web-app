@@ -1,0 +1,14 @@
+platform :ios, '10.0'
+
+# Uncomment the next line if you're using Swift or would like to enable modular headers
+# use_frameworks!
+
+target 'Runner' do
+  # Flutter pod dependencies
+  use_frameworks!
+
+  pod 'PathProvider', :path => '../.symlinks/plugins/path_provider/ios'
+
+  # Add other pods if needed
+
+end

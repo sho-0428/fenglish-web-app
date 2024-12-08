@@ -1,0 +1,26 @@
+name: flutter_application
+description: "A new Flutter project."
+publish_to: 'none' # pub.devに公開する場合はこの行を削除してください
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"  # SDKバージョンを2.17.0以上に設定
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.1          # 最新バージョンを確認してください
+  hive_flutter: ^1.1.0  # 最新バージョンを確認してください
+  cupertino_icons: ^1.0.8
+  #path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+# 必要に応じてアセットやフォントのセクションを追加してください
